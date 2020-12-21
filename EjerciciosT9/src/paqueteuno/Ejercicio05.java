@@ -20,8 +20,8 @@ public class Ejercicio05 {
         Scanner entrada = new Scanner(System.in);
         // Se declara las variables
         String[] estudiantes = {"Kimberly", "Hogan",
-                "Teresa", "Luis", "Mark", "Jennifer",
-                "Alcides"};
+            "Teresa", "Luis", "Mark", "Jennifer",
+            "Alcides"};
         String inicial;
         boolean bandera = true;
         String primeraLetra;
@@ -34,7 +34,7 @@ public class Ejercicio05 {
             //Inicia otro ciclo que verificara si la primera letra de todos los nombres es igual a la letra ingresada
             // Si son las mismas letras saldra del ciclo, caso contrario volvera a ingresar al mismo
             for (int i = 0; i < estudiantes.length; i++) {
-                primeraLetra=estudiantes[i].substring(0, 1);
+                primeraLetra = estudiantes[i].substring(0, 1);
                 if (inicial.equals(primeraLetra)) {
                     bandera = false;
                 }

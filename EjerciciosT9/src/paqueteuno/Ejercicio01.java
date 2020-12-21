@@ -24,22 +24,22 @@ public class Ejercicio01 {
         //Se calcula cuantos elementos pertenecen a los distintos rangos
         for (int i = 0; i < respuestas.length; i++) {
             respuesta = respuestas[i];
-            if ((respuesta >= 1) && (respuesta <=5)){
+            if ((respuesta >= 1) && (respuesta <= 5)) {
                 valoresRangos[0] = valoresRangos[0] + 1;
-            }else{
-                if ((respuesta >= 6) && (respuesta <=10)){
+            } else {
+                if ((respuesta >= 6) && (respuesta <= 10)) {
                     valoresRangos[1] = valoresRangos[1] + 1;
-                }else{
-                    if ((respuesta >= 11) && (respuesta <=15)){
+                } else {
+                    if ((respuesta >= 11) && (respuesta <= 15)) {
                         valoresRangos[2] = valoresRangos[2] + 1;
-                    }else{
-                        if ((respuesta >= 16) && (respuesta <=20)){
+                    } else {
+                        if ((respuesta >= 16) && (respuesta <= 20)) {
                             valoresRangos[3] = valoresRangos[3] + 1;
                         }
-                    
+
                     }
                 }
-                
+
             }
         }
 
@@ -48,7 +48,7 @@ public class Ejercicio01 {
             System.out.printf("Rango %s - valor %d\n", rangos[i],
                     valoresRangos[i]);
         }
-        
+
     }
-    
+
 }
