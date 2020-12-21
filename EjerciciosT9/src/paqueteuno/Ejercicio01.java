@@ -16,11 +16,12 @@ public class Ejercicio01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        // Declaracion de variables
         int[] respuestas = {1, 10, 11, 12, 12, 13, 16, 17, 18, 8, 9, 10};
         String[] rangos = {"1-5", "6-10", "11-15", "16-20"};
         int[] valoresRangos = new int[4];
         int respuesta;
-        
+        //Se calcula cuantos elementos pertenecen a los distintos rangos
         for (int i = 0; i < respuestas.length; i++) {
             respuesta = respuestas[i];
             if ((respuesta >= 1) && (respuesta <=5)){
@@ -41,8 +42,8 @@ public class Ejercicio01 {
                 
             }
         }
-        
-        
+
+        //Se muestra en pantalla los rangos y cuantos valores estan en estos rangos
         for (int i = 0; i < rangos.length; i++) {
             System.out.printf("Rango %s - valor %d\n", rangos[i],
                     valoresRangos[i]);
